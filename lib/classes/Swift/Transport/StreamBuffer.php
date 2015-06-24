@@ -257,6 +257,9 @@ class Swift_Transport_StreamBuffer extends Swift_ByteStream_AbstractFilterableIn
             $timeout = $this->params['timeout'];
         }
         $options = array();
+        $options['ssl']['verify_peer'] = FALSE;
+        $options['ssl']['verify_peer_name'] = FALSE;
+
         if (!empty($this->params['sourceIp'])) {
             $options['socket']['bindto'] = $this->params['sourceIp'].':0';
         }

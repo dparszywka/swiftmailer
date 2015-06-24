@@ -1,5 +1,5 @@
 {
-    "name": "swiftmailer/swiftmailer",
+    "name": "dparszywka/swiftmailer",
     "type": "library",
     "description": "Swiftmailer, free feature-rich PHP mailer",
     "keywords": ["mail","mailer","email"],
@@ -24,6 +24,7 @@
     "autoload": {
         "files": ["lib/swift_required.php"]
     },
+    "target-dir": "swiftmailer/swiftmailer"
     "extra": {
         "branch-alias": {
             "dev-master": "6.0-dev"

@@ -24,7 +24,6 @@
     "autoload": {
         "files": ["lib/swift_required.php"]
     },
-    "target-dir": "/swiftmailer/swiftmailer",
     "extra": {
         "branch-alias": {
             "dev-master": "6.0-dev"
